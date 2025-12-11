@@ -145,6 +145,10 @@ export const translations = {
           q: 'Is there multilingual support?',
           a: 'Yes, BlockVista is available in English, Hindi, Gujarati, and Marathi with 24x7 support in all languages.',
         },
+        {
+          q: 'How do I start?',
+          a: 'Fill out the early access form on BlockVista AI to join our waitlist. For pilot programs and enterprise requirements, book a meeting with Team BlockVista for a personalized demo and onboarding.',
+        },
       ],
     },
     // CTA
@@ -310,6 +314,10 @@ export const translations = {
         {
           q: 'क्या बहुभाषी समर्थन है?',
           a: 'हाँ, BlockVista अंग्रेजी, हिंदी, गुजराती, और मराठी में उपलब्ध है और सभी भाषाओं में 24x7 ग्राहक सहायता प्रदान करता है।',
+        },
+        {
+          q: 'मैं कैसे शुरू करूं?',
+          a: 'हमारी वेटलिस्ट में शामिल होने के लिए BlockVista AI पर अर्ली एक्सेस फॉर्म भरें। पायलट प्रोग्राम और एंटरप्राइज आवश्यकताओं के लिए, व्यक्तिगत डेमो और ऑनबोर्डिंग के लिए टीम BlockVista के साथ मीटिंग बुक करें।',
         },
       ],
     },
@@ -477,6 +485,10 @@ export const translations = {
           q: 'શું બહુભાષી સમર્થન છે?',
           a: 'હા, BlockVista અંગ્રેજી, હિંદી, ગુજરાતી, અને મરાઠીમાં ઉપલબ્ધ છે અને તમામ ભાષાઓમાં 24x7 ગ્રાહક સહાય પ્રદાન કરે છે।',
         },
+        {
+          q: 'હું કેવી રીતે શરૂ કરૂં?',
+          a: 'અમારી વેઇટલિસ્ટમાં જોડાવા માટે BlockVista AI પર અર્લી એક્સેસ ફોર્મ ભરો. પાયલટ પ્રોગ્રામ અને એન્ટરપ્રાઇઝ જરૂરિયાતો માટે, વ્યક્તિગત ડેમો અને ઓનબોર્ડિંગ માટે ટીમ BlockVista સાથે મીટિંગ બુક કરો.',
+        },
       ],
     },
     // CTA
@@ -642,6 +654,10 @@ export const translations = {
         {
           q: 'बहुभाषिक समर्थन आहे का?',
           a: 'होय, BlockVista इंग्रजी, हिंदी, गुजराती, आणि मराठीमध्ये उपलब्ध आहे आणि सर्व भाषांमध्ये 24x7 ग्राहक समर्थन प्रदान करते.',
+        },
+        {
+          q: 'मी कसे सुरू करू?',
+          a: 'आमच्या वेटलिस्टमध्ये सहभागी होण्यासाठी BlockVista AI वर अर्ली एक्सेस फॉर्म भरा. पायलट प्रोग्राम आणि एंटरप्राइज आवश्यकतांसाठी, वैयक्तिक डेमो आणि ऑनबोर्डिंगसाठी टीम BlockVista सोबत मीटिंग बुक करा.',
         },
       ],
     },
