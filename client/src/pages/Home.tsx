@@ -44,9 +44,11 @@ export default function Home() {
                 <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
                   {t.hero.startTrial} <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-border hover:bg-card">
-                  {t.hero.watchDemo}
-                </Button>
+                <a href="https://www.blockvista.in/schedule" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" variant="outline" className="border-border hover:bg-card">
+                    {t.hero.watchDemo}
+                  </Button>
+                </a>
               </div>
               <div className="flex items-center gap-8 pt-8">
                 <div>
@@ -54,8 +56,8 @@ export default function Home() {
                   <div className="text-sm text-muted-foreground">{t.hero.activeTraders}</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold">₹10,000 Cr+</div>
-                  <div className="text-sm text-muted-foreground">{t.hero.assetsManaged}</div>
+                  <div className="text-2xl font-bold">₹1,00,000 Cr+*</div>
+                  <div className="text-sm text-muted-foreground">{t.hero.dailyVolume}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold">99.9%</div>
@@ -317,11 +319,10 @@ export default function Home() {
             ].map((plan, i) => (
               <Card
                 key={i}
-                className={`p-8 space-y-6 border transition ${
-                  plan.highlighted
-                    ? "border-accent bg-accent/5 scale-105"
-                    : "border-border hover:border-accent/50"
-                }`}
+                className={`p-8 space-y-6 border transition ${plan.highlighted
+                  ? "border-accent bg-accent/5 scale-105"
+                  : "border-border hover:border-accent/50"
+                  }`}
               >
                 <div>
                   <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
@@ -334,11 +335,10 @@ export default function Home() {
                   </div>
                 </div>
                 <Button
-                  className={`w-full ${
-                    plan.highlighted
-                      ? "bg-accent hover:bg-accent/90 text-accent-foreground"
-                      : "bg-card border border-border hover:bg-card/80"
-                  }`}
+                  className={`w-full ${plan.highlighted
+                    ? "bg-accent hover:bg-accent/90 text-accent-foreground"
+                    : "bg-card border border-border hover:bg-card/80"
+                    }`}
                 >
                   {t.pricing.getStarted}
                 </Button>
@@ -378,9 +378,8 @@ export default function Home() {
                 <div className="p-6 flex items-center justify-between">
                   <h3 className="font-semibold text-lg">{item.q}</h3>
                   <ChevronDown
-                    className={`w-5 h-5 text-muted-foreground transition ${
-                      expandedFaq === i ? "rotate-180" : ""
-                    }`}
+                    className={`w-5 h-5 text-muted-foreground transition ${expandedFaq === i ? "rotate-180" : ""
+                      }`}
                   />
                 </div>
                 {expandedFaq === i && (
@@ -407,9 +406,11 @@ export default function Home() {
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
               {t.cta.startTrial} <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-border hover:bg-card">
-              {t.cta.scheduleDemo}
-            </Button>
+            <a href="https://www.blockvista.in/schedule" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="border-border hover:bg-card">
+                {t.cta.scheduleDemo}
+              </Button>
+            </a>
           </div>
         </div>
       </section>

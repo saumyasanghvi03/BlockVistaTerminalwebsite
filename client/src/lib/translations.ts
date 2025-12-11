@@ -20,7 +20,7 @@ export const translations = {
       startTrial: 'Start Free Trial',
       watchDemo: 'Watch Demo',
       activeTraders: 'Active Traders',
-      assetsManaged: 'Assets Managed',
+      dailyVolume: 'Daily Market Volume',
       uptime: 'Uptime',
     },
     // Features Section
@@ -186,7 +186,7 @@ export const translations = {
       startTrial: 'फ्री ट्रायल शुरू करें',
       watchDemo: 'डेमो देखें',
       activeTraders: 'सक्रिय ट्रेडर्स',
-      assetsManaged: 'प्रबंधित संपत्ति',
+      dailyVolume: 'दैनिक बाजार वॉल्यूम',
       uptime: 'अपटाइम',
     },
     // Features Section
@@ -352,7 +352,7 @@ export const translations = {
       startTrial: 'મફત ટ્રાયલ શરૂ કરો',
       watchDemo: 'ડેમો જુઓ',
       activeTraders: 'સક્રિય ટ્રેડર્સ',
-      assetsManaged: 'સંચાલિત સંપત્તિ',
+      dailyVolume: 'દૈનિક બજાર વોલ્યુમ',
       uptime: 'અપટાઇમ',
     },
     // Features Section
@@ -518,7 +518,7 @@ export const translations = {
       startTrial: 'मुक्त चाचणी सुरू करा',
       watchDemo: 'डेमो पहा',
       activeTraders: 'सक्रिय व्यापारी',
-      assetsManaged: 'व्यवस्थापित संपत्ती',
+      dailyVolume: 'दैनिक बाजार व्हॉल्यूम',
       uptime: 'अपटाइम',
     },
     // Features Section
